@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap');
+
+// Globales
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
+// Variables
+$font-h1:3.0rem;
+$font-h2:2.4rem;
+$font-h3:2.0rem;
+$font-p:1.8rem;
+
+p {
+    font-size: $font-p;
+    color: #252525;
+}
+
+h1{
+    font-size: $font-h1;
+}
+
+h2{
+    font-size: $font-h2;
+    color: #303030;
+}
+
+h3{
+    font-size: $font-h3;
+    font-weight: lighter;
+}
+
+// Extend
+
+.btn{
+    border: none;
+    border-radius: 2px;
+    padding: 0.7em 1.5em;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.btn-primary{
+    @extend .btn
+}
