@@ -33,6 +33,19 @@ if (number > 0){
     console.log(number + ' es 0');
 }
 
+let myAge = ''
+if(myAge = 6){
+    'voy a primer grado'
+}else if(myAge = 7){
+    'voy a segundo grado'
+} else if (myAge = 8 ){
+    'voy a tercer grado'
+}else if (myAge <= 5 || myAge > 12 ){
+    'no va al primario'
+}else{
+    'introduce un numero correcto'
+}
+
 // switch
 // multiples caminos a una sola condicion
 let color = 'azul'
@@ -47,3 +60,4 @@ switch(color){
         console.log('not match color');
         break
 }
+
