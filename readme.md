@@ -1,14 +1,14 @@
 # Learning JavaScript
 
-### and [*SASS - SCSS*](/sass/)
+## and [**SASS-SCSS**](/sass/)
 
 ### Intro JS - First steps
 
-* [Basics](js/basics.js)
-* [Arithmetic operators](js/operators.js)
-* [Logical operators](js/opLogicos.js)
-* [Comparison operators](js/comparacion.js)
-* [Conditional operator](js/condicionales.js)
+* [Basics - basicos (var - let - const // array - objects)](js/basics.js)
+* [Arithmetic operators - Operadores aritmeticos](js/operators.js)
+* [Logical operators - Operadores logicos](js/opLogicos.js)
+* [Comparison operators - Operadoradores de comparacion](js/comparacion.js)
+* [Conditional operator - Condicionales](js/condicionales.js)
 
 ### Functions
 * [Functions]()
