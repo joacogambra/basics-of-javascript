@@ -31,6 +31,16 @@ frutas.join(' - ')
 console.log(frutas);
 
 // splice y slice
+// Slice se usa para cortar un trozo del codigo.
+
+let users = ["Mirko", "Joaco", "Lucas", "Jeremias", "Nicolas", "Ignacio"]
+console.log(users.slice(2,4)); // Cortaria al usuario en la posicion 2 3 y el 4 lo expluye, osea sacaria a Lucas y Jeremias
+
+// Splice se usa para empalmar codigo.
+
+let mods = ["Matias", "Pedro", "Thiago", "Ivan", "Tomas"]
+mods.splice(5,6, "Jaime", "Brian") // Tambien se puede usar para reemplazar, si huiera puesto 3, 4, se hubieran hubicado en el lugar de Ivan y Tomas.
+console.log(mods)
 
 /* El includes() devuelve true si una cadena contiene una cadena especificada. De lo contrario vuelve false.
 El includes()método distingue entre mayúsculas y minúsculas. */
