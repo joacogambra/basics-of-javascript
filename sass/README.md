@@ -1,11 +1,26 @@
 # Sass 
----
 - Sass is a stylesheet language that’s compiled to CSS
 - Hojas de estilo sintácticamente asombrosas
 - Es un preprocesador de CSS que le otorga superpoderes a su CSS.
 
 Sass y Scss es lo mismo pero con pequeñas diferencias, en Sass no se usan las {llaves} ni ;
 
+---
+
+### Install sass (width Node.js)
+```
+npm install -g sass
+
+sass --watch (ruta de sass/scss) (ruta css)
+ en este caso seria:
+sass --watch sass/app.scss sass/app.css
+
+O con:
+sass --watch sass:css
+y crea la carpeta de css, el .css y .css.map
+
+```
+---
 ### Este codigo de css
 
 ``` nav {
