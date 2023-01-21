@@ -4,47 +4,81 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./sass/style.css">
+    <link rel="stylesheet" href="./sass/app.css">
+    <script src="https://kit.fontawesome.com/8a815a169a.js" crossorigin="anonymous"></script>
     <title>Learn JavaScript</title>
   </head>
   <body>
-    <header id="menu">
+    <header id="menu">         
       <nav>
-        <a href=""><img src="" alt="" /></a>
-        <ul>
-          <li><a href="">Basics</a></li>
-          <li><a href="">Operadores</a></li>
-          <li><a href="">Operadores Logicos</a></li>
-          <li><a href="">Comparaciones</a></li>
-          <li><a href="">Funciones</a></li>
-        </ul>
-      </nav>
-    </header>
-    <div class="container">
-      <h1>JavaScript</h1>
-      <h2>Concepts for Beginners</h2>
-      <div>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt amet
-          exercitationem perferendis molestiae, nam animi consectetur suscipit
-          voluptatibus similique libero quos totam impedit sapiente earum
-          placeat illo ex velit doloremque. Ducimus nemo dolorum itaque
-          doloribus fugiat reprehenderit eligendi deserunt adipisci doloremque
-          eveniet? Id animi ratione rem exercitationem quaerat necessitatibus
-          magnam, ut libero facere maiores porro quas nulla quos cumque,
-          officiis asperiores? Pariatur sunt nam necessitatibus deleniti
-          inventore voluptas repellendus, unde earum. Quisquam sint debitis,
-          consequuntur alias, illo aliquid amet quidem delectus necessitatibus
-          omnis error eos excepturi doloribus pariatur fugiat minima autem.
-          Dignissimos, eveniet deleniti. Suscipit rerum qui aliquam quaerat
-          blanditiis.
-        </p>
+          <a href=""><img src="" class="logo" alt="logo"></a>
+          <ul>
+            <li><a href="">Basics</a></li>
+            <li><a href="">Operadores</a></li>
+            <li><a href="">Operadores Logicos</a></li>
+            <li><a href="">Comparaciones</a></li>
+            <li><a href="">Funciones</a></li>
+          </ul>
+      </nav>            
+  </header>
+
+  <section class="presentacion">
+      <div class="flex-item1">
+          <h1>Diseñamos Interfaces Minimalistas Que Encantan y Captivan</h1>
+          <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem reiciendis modi fugit temporibus porro atque, vel placeat impedit repellendus sint!
+          </p>
+          <div>
+              <button class="btn-principal" type ="submit">COMUNICATE</button>
+              <button class="btn-secundario" type ="submit">PORTAFOLIO</button>
+          </div>
       </div>
-    </div>
-    <footer>
-      <p>for:</p>
-      <p>all righst reserved</p>
-    </footer>
+      <div class="flex-item2">
+          <img src="img/caratula2.png" alt="caratula" width="500" height="400">
+      </div>
+  </section>
+
+
+  <div class="wrapper">
+      <section class="servicios" >
+          <div class="titulo-servicios">
+              <h2>Creamos Experiencias Maravillosas Para Los Usuarios</h2>
+              <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci laudantium delectus nobis a molestiae amet eaque consequatur veritatis excepturi at.
+              </p>
+          </div>
+          <div class="tipo-servicios">
+              <div>
+                  <i class="fas fa-drafting-compass"></i>
+                  <h3>Diseño UX/UI</h3>
+                  <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, est.
+                  </p>
+              </div>
+              <div>
+                  <i class="fas fa-laptop"></i>
+                  <h3>Desarrollo WEB</h3>
+                  <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, est.
+                  </p>
+              </div>
+              <div>
+                  <i class="fas fa-cart-arrow-down"></i>
+                  <h3>Comercio Digital</h3>
+                  <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, est.
+                  </p>
+              </div>
+          </div>
+      </section>
+  </div>
+
+  <footer>
+      <p class="footer-content">
+          ArtWEB &copy;Todos los derechos reservados 2023
+      </p>
+  </footer>
+
     <script src="./js/basics.js"></script>
   </body>
 </html>
