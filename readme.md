@@ -1,7 +1,7 @@
 # Learning JavaScript
 
 ## and [**SASS-SCSS**](/sass/)
-
+---
 ### Intro JS - First steps
 
 * [Basics - basicos (var - let - const // array - objects)](js/basics.js)
@@ -11,4 +11,7 @@
 * [Conditional operator - Condicionales](js/condicionales.js)
 
 ### Functions
-* [Functions]()
+* [Methods - Metodos de Array](js/methodsArray.js)
+* [Loops-bucles](js/loops.js)
+* [Functions](js/functions.js)
+
