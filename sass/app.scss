@@ -1,4 +1,5 @@
 @import 'global';
+@import 'scroll'; // importante el " ; " 
 
 .logo{
     width: 120px;
@@ -24,6 +25,7 @@ nav{
     ul{
         display: flex;
         padding: 0;
+        list-style: none;
         
         a{
             padding: 10px;
