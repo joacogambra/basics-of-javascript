@@ -5,8 +5,15 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Oswald", sans-serif;
+  background-image: url(https://miro.medium.com/max/1024/1*tgscF7k_6VdH7PAwn64nNw.jpeg);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 p {
@@ -48,6 +55,17 @@ h3 {
   font-size: 16px;
 }
 
+body::-webkit-scrollbar {
+  width: 7px;
+  color: #252525;
+  background-color: orange;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #303030;
+  border-radius: 6mm;
+}
+
 .logo {
   width: 120px;
 }
@@ -73,6 +91,7 @@ nav {
 nav ul {
   display: flex;
   padding: 0;
+  list-style: none;
 }
 nav ul a {
   padding: 10px;
