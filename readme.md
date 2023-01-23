@@ -15,3 +15,6 @@
 * [Loops-bucles](js/loops.js)
 * [Functions](js/functions.js)
 
+### DOM
+* [Manejo de DOM](js/dom.js)
+
