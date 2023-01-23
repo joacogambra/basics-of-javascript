@@ -7,8 +7,15 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Oswald', sans-serif;
+    background-image: url(https://miro.medium.com/max/1024/1*tgscF7k_6VdH7PAwn64nNw.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 // Variables
