@@ -39,7 +39,7 @@ console.log(users.slice(2,4)); // Cortaria al usuario en la posicion 2 3 y el 4 
 // Splice se usa para empalmar codigo.
 
 let mods = ["Matias", "Pedro", "Thiago", "Ivan", "Tomas"]
-mods.splice(5,6, "Jaime", "Brian") // Tambien se puede usar para reemplazar, si huiera puesto 3, 4, se hubieran hubicado en el lugar de Ivan y Tomas.
+mods.splice(5,6, "Jaime", "Brian") // Tambien se puede usar para reemplazar, si huiera puesto 3, 4, se hubieran ubicado en el lugar de Ivan y Tomas.
 console.log(mods)
 
 /* El includes() devuelve true si una cadena contiene una cadena especificada. De lo contrario vuelve false.
