@@ -21,9 +21,13 @@ nav.innerHTML += `
             <ul>
                 <li><a href="">Basics</a></li>
                 <li><a href="">Operadores</a></li>
-                <li><a href="">Operadores Logicos</a></li>
-                <li><a href="">Comparaciones</a></li>
+                <li><a href="">OpLogicos</a></li>
+                <li><a href="">Comparacion</a></li>
+                <li><a href="">Condicionales</a></li>
+                <li><a href="">Metodos</a></li>
+                <li><a href="">Loops</a></li>
                 <li><a href="">Funciones</a></li>
+                <li><a href="">DOM</a></li>
             </ul> `;
 
 let contenedor = document.getElementById("div-wrapper");
@@ -31,35 +35,33 @@ let section = document.createElement("section");
 section.className = "servicios";
 contenedor.appendChild(section);
 section.innerHTML += `<div class="titulo-servicios">
-    <h2>Creamos Experiencias Maravillosas Para Los Usuarios</h2>
-    <p>
-    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci laudantium delectus nobis a molestiae amet eaque consequatur veritatis excepturi at.
-    </p>
+    <h2>Introduccion a JavaScript</h2>
+    <p>Lenguaje de programacion para ser incluido en una app y hacerlo interactivo</p>
     </div>
 <div class="tipo-servicios">
 <div>
     <i class="fas fa-drafting-compass"></i>
-    <h3>Diseño UX/UI</h3>
+    <h3>Diseño Multimedia</h3>
     <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, est.
+        Crear, modificar, controlar o animar
     </p>
 </div>
 <div>
     <i class="fas fa-laptop"></i>
     <h3>Desarrollo WEB</h3>
     <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, est.
+        Escribir contenido de página dinámicamente
     </p>
 </div>
 <div>
-    <i class="fas fa-cart-arrow-down"></i>
-    <h3>Comercio Digital</h3>
+<i class="fa-solid fa-wand-magic-sparkles"></i>
+    <h3>Interacción</h3>
     <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, est.
+        Manejar y administrar eventos de la aplicación
     </p>
 </div>
 </div>`;
 
 
 let presentacion = document.getElementById('intro')
-presentacion.innerText += 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem reiciendis modi fugit temporibus porro atque, vel placeat impedit repellendus sint!'
+presentacion.innerText += 'Proyecto para refrescar y enseñar JS básico, y primera practica con SCSS'

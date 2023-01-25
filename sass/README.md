@@ -13,7 +13,7 @@ npm install -g sass
 
 sass --watch (ruta de sass/scss) (ruta css)
  en este caso seria:
-sass --watch sass/app.scss sass/app.css
+sass --watch sass/app.scss css/app.css
 
 O con:
 sass --watch sass:css
