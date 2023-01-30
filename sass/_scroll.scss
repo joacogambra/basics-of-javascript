@@ -1,0 +1,13 @@
+body::-webkit-scrollbar{
+    width: 7px;
+    color: #252525;
+    background-color: orange;
+}
+
+// el thumb es la barrita
+body::-webkit-scrollbar-thumb{
+    background: #303030;
+    border-radius: 6mm;
+    // border-right: 1px solid orange;
+    // border-left: 1px solid orange;
+}

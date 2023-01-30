@@ -1,0 +1,93 @@
+@import "global";
+@import "scroll"; // importante el " ; "
+// sass --watch sass/app.scss css/app.css
+.logo {
+  width: 120px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  border-top: 30px solid rgb(52, 53, 51);
+  width: 100%;
+}
+
+.wrapper {
+  background-color: #fff;
+  padding: 100px 0px;
+}
+
+// Nesting
+
+nav {
+  @include caja-flex(space-between, center, wrap);
+
+  ul {
+    display: flex;
+    padding: 0;
+    list-style: none;
+
+    a {
+      padding: 10px;
+      font-size: 1.6rem;
+      font-weight: bold;
+    }
+    a:hover {
+      color: #6495ed;
+      transform: scale(1.1);
+    }
+  }
+}
+
+.presentacion {
+  padding-top: 200px;
+  padding-bottom: 50px;
+  @include caja-flex(space-between, center, nowrap);
+
+  .flex-item2 {
+    text-align: center;
+        img {
+        width: 320px;
+        aspect-ratio: 3/2;
+        object-fit: contain;
+        mix-blend-mode: multiply;
+      }
+  }
+
+  h1 {
+    margin-top: 0;
+    padding-right: 20px;
+    font-size: $font-h1;
+  }
+  p {
+    padding-right: 20px;
+    padding-bottom: 10px;
+  }
+}
+
+.servicios {
+  div {
+    text-align: center;
+  }
+
+  .tipo-servicios {
+    @include caja-flex(center, center, nowrap);
+    i {
+      font-size: 30px;
+      color: #6495ed;
+    }
+  }
+}
+
+footer {
+  min-height: 90px;
+  background-color: #256;
+  margin-top: 0;
+  .footer-content {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 15px;
+  }
+}
+
+@import "mediaquerys";

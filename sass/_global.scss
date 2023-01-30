@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap');
+
+// Globales
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+    background-image: url(https://miro.medium.com/max/1024/1*tgscF7k_6VdH7PAwn64nNw.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+// Variables
+$font-h1:3.0rem;
+$font-h2:2.4rem;
+$font-h3:2.0rem;
+$font-p:1.8rem;
+
+p {
+    font-size: $font-p;
+    color: #252525;
+}
+
+h2{
+    font-size: $font-h2;
+    color: #303030;
+}
+
+h3{
+    font-size: $font-h3;
+    font-weight: lighter;
+}
+
+// Extend
+
+.btn{
+    border: none;
+    border-radius: 2px;
+    padding: 0.7em 1.5em;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.btn-primary{
+    @extend .btn;
+    color: #fff;
+    background-color: #6495ED;
+}
+
+.btn-secundario{
+    @extend .btn;
+    background-color: rgb(134, 132, 132);
+}
+
+// Mixins
+
+@mixin caja-flex($principal, $cruzado, $wrap){
+    display: flex;
+    justify-content: $principal;
+    align-items: $cruzado;
+    flex-wrap: $wrap;
+}
+
+// Funcion
+
+@function font-calc($size, $type){
+    $font: 16;
+
+    @if $type ==h1{
+        $font: ($size + 0.2*$size);
+    }
+
+    @if $type ==2{
+        $font: ($size + 0.1*size);
+    }
+
+    @else{
+        $font:16;
+    }
+
+    @return $font + px
+}
+
+.ejemplo{
+    font-size: font-calc(50,h2);
+}
+// agregamos la clase ejemplo donde la necesitamos */
