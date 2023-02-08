@@ -1,0 +1,1 @@
+nombres.forEach((value) => console.log(value))
