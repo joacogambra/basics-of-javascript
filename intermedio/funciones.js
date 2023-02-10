@@ -32,12 +32,3 @@ const perro = {
 
 gato.caminar()
 perro.pasear()
-
-
-
-
-
-
-
-
-nombres.forEach((value) => console.log(value))
